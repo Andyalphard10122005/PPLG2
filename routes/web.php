@@ -17,6 +17,8 @@ use App\Http\Controllers\Winny;
 use App\Http\Controllers\Jeffry;
 use App\Http\Controllers\Agung;
 use App\Http\Controllers\Selvi;
+use App\Http\Controllers\M_rizky;
+use App\Http\Controllers\Habibi;
 
 
 
@@ -80,4 +82,4 @@ Route::get('members/kevin', [App\Http\Controllers\Kevin::class, 'index'])->name(
 
 Route::get('members/l', [App\Http\Controllers\Fachry::class, 'lex'])->name('Fachry.index');
 Route::get('members/yudiya', [App\Http\Controllers\M_yudiya::class, 'index']);
-
+Route::get('members/rizqi', [App\Http\Controllers\M_rizky::class, 'index'])->name('M_rizky.rizqih');
