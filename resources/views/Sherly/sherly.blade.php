@@ -12,7 +12,7 @@
 <div class="main">
 	<div class="left">
 		<br>
-		<div class="profile-img"><img src=="{{ asset('asset-sherly/css/foto.jpg') }}></div>
+		<div class="profile-img"><img src=="{{ asset('asset-sherly/css/cv foto.jpg') }}></div>
 
 		<div class="box-1">
 			<div class="heading">
