@@ -17,9 +17,10 @@ use App\Http\Controllers\Winny;
 use App\Http\Controllers\Jeffry;
 use App\Http\Controllers\Agung;
 use App\Http\Controllers\Selvi;
+use App\Http\Controllers\M_rizky;
+use App\Http\Controllers\Habibi;
 use App\Http\Controllers\Sayiddina_Farhan;
 use App\Http\Controllers\Kiagus;
-
 
 
 
@@ -70,8 +71,12 @@ Route::get('members/yudiya', [App\Http\Controllers\M_yudiya::class, 'index']);
 Route::get('members/naillah', [App\Http\Controllers\Naillah::class, 'naillah'])->name('Naillah.naillah');
 Route::get('members/selvi', [App\Http\Controllers\Selvi::class, 'index'])->name('Selvi.selvi');
 Route::get('members/radit', [App\Http\Controllers\Raditya::class, 'index'])->name('Raditya.radit');
+Route::get('members/farhan', [App\Http\Controllers\Sayiddina_Farhan::class, 'index'])->name('Sayiddina_Farhan.farhan');
+Route::get('members/kevin', [App\Http\Controllers\Kevin::class, 'index'])->name('Kevin.kevin');
+Route::get('members/l', [App\Http\Controllers\Fachry::class, 'lex'])->name('Fachry.index');
+Route::get('members/yudiya', [App\Http\Controllers\M_yudiya::class, 'index']);
+Route::get('members/rizqi', [App\Http\Controllers\M_rizky::class, 'index'])->name('M_rizky.rizqih');
 Route::get('members/miftah', [App\Http\Controllers\Ahmad_miftah::class, 'index'])->name('Ahmad_Miftah.miftah');
 Route::get('members/dimas', [App\Http\Controllers\Dimas::class, 'index'])->name('Dimas.dimas');
 Route::get('members/rei', [App\Http\Controllers\Rei::class, 'index'])->name('Rei.rei');
 Route::get('members/kiagus', [App\Http\Controllers\Kiagus::class, 'index'])->name('Kiagus.kiagus');
-
