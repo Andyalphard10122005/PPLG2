@@ -1,488 +1,842 @@
 <!DOCTYPE html>
-<!-- upto 2 directory depth-->
-<html lang="en-US">
-  <head>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no">
+
+    <meta name="robots" content="index,follow">
+
+    
+    <meta property="og:title" content="CV">
+    
+    <meta property="og:description" content="">
+    
+    <meta property="og:image" content="https://www.google.com/maps/uv?hl=en&pb=!1s0x39695990df77e599%3A0x99cf1d145bec01bb!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOvmrnsNKRqq0sdHzwl1TogStNJlC8dIjiWCiTi%3Dw293-h120-k-no!5syash%20gaur%20nasirabad%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e10!2sAF1QipNyIu1Cou16RY6fG6gDWQdpcZzD-X4jGnWv0Axa&sa=X&ved=2ahUKEwiAtraq4b_qAhVL73MBHY2uCbcQoiowFXoECBEQBg#">
+
+    <meta name="author" content="">
+    <meta name="owner" content="">
+    
+    <link rel="canonical" href="">
+
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141281251-2"></script>
+    
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-141281251-2');
+    </script>
+    
+
+    <link rel="stylesheet" href="{{ asset('Assets-kevin/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('Assets-kevin/css/responsive.css') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('Assets-kevin/images/profile/user.svg') }}">
+
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.transitions.css">
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+
     <title>CV</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap" media="print" onload="this.media='all'"/>
-    <noscript>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap"/>
-    </noscript>
-    <link href="{{ asset('Assets-kevin/css/font-awesome/css/all.min.css?ver=1.2.0') }}" rel="stylesheet">
-    <link href="{{ asset('Assets-kevin/css/bootstrap-icons/bootstrap-icons.css?ver=1.2.0') }}" rel="stylesheet">
-    <link href="{{ asset('Assets-kevin/css/bootstrap.min.css?ver=1.2.0') }}" rel="stylesheet">
-    <link href="{{ asset('Assets-kevin/css/aos.css?ver=1.2.0') }}" rel="stylesheet">
-    <link href="{{ asset('Assets-kevin/css/main.css?ver=1.2.0') }}" rel="stylesheet">
-    <noscript>
-      <style type="text/css">
-        [data-aos] {
-            opacity: 1 !important;
-            transform: translate(0) scale(1) !important;
-        }
-      </style>
-    </noscript>
-  </head>
-  <body id="top">
-    <header class="bg-light">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light" id="header-nav" role="navigation">
-        <div class="container"><a class="link-dark navbar-brand site-title mb-0" href="#">CV</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto me-2">
-              <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-              <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-              <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-              <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-              <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-              <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <div class="page-content">
-      <div id="content">
-<header>
-  <div class="cover bg-light">
-    <div class="container px-3">
-      <div class="row">
-        <div class="col-lg-6 p-2"><img class="img-fluid" src="https://img.freepik.com/free-vector/webinar-concept-illustration_114360-4764.jpg?w=740&t=st=1667610805~exp=1667611405~hmac=4898685404204d25c77a3887b149e8f6ac22bcf507d2cd6eb0342bb59557c356" alt="hello"/></div>
-        <div class="col-lg-6">
-          <div class="mt-5">
-            <p class="lead text-uppercase mb-1">Hello!</p>
-            <h1 class="intro-title marker" data-aos="fade-left" data-aos-delay="50">I’m Kevin Arya Saputra</h1>
-            <p class="lead fw-normal mt-3" data-aos="fade-up" data-aos-delay="100">Web Developer & Mobile Application Developer</p>
-            <div class="social-nav" data-aos="fade-up" data-aos-delay="200">
-              <nav role="navigation">
-                <ul class="nav justify-content-left">
-                  <li class="nav-item"><a class="nav-link" href="https://twitter.com/" title="Twitter"><i class="fab fa-twitter"></i><span class="menu-title sr-only">Twitter</span></a></li>
-                  <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/" title="Facebook"><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a></li>
-                  <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/" title="Instagram"><i class="fab fa-instagram"></i><span class="menu-title sr-only">Instagram</span></a></li>
-                  <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/" title="LinkedIn"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">LinkedIn</span></a></li>
-                  <li class="nav-item"><a class="nav-link" href="https://www.behance.net/t" title="Behance"><i class="fab fa-behance"></i><span class="menu-title sr-only">Behance</span></a></li>
+    
+</head>
+
+<body>
+
+    <div class="preloader" id="preloader">
+        <div id="loader"></div>
+    </div>
+
+    <!---------------------------------NAVBAR START---------------------------------->
+    <navbar id="home"></navbar>
+    <nav class="navbar navbar-expand-lg id=" style="position: fixed;">
+        <div class="container-fluid">
+
+            <div class="logo"><a href="#home">CV</a></div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-bar"><i class="fa fa-bars"></i></span>
+            </button>
+            <div class="theme-switch-wrapper">
+                <i class="fa fa-sun-o"></i>
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" />
+                    <div class="slider round"></div>
+                </label>
+                <i class="fa fa-moon-o"></i>
+            </div>
+            <!-- navbar links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home" data-scroll-nav="0">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" data-scroll-nav="1">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills" data-scroll-nav="2">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services" data-scroll-nav="3">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience" data-scroll-nav="4">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects" data-scroll-nav="5">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" data-scroll-nav="6">Contact</a>
+                    </li>
                 </ul>
-              </nav>
             </div>
-            <div class="mt-3" data-aos="fade-up" data-aos-delay="200"><a class="btn btn-primary shadow-sm mt-1 hover-effect" href="#contact">Get In Touch <i class="fas fa-arrow-right"></i></a></div>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <div class="wave-bg"></div>
-</header>
-<div class="section pt-4 px-3 px-lg-4" id="about">
-  <div class="container-narrow">
-    <div class="row">
-      <div class="col-md-6">
-        <h2 class="h4 my-2">Hello! I’m Kevin Arya Saputra.</h2>
-        <p>I am passionate about UI/UX design and Web Design. I am a skilled front-end developer and master of graphic design tools such as Photoshop and Sketch. I am a quick learner and a team worker that gets the job done. I can easily capitalize on low hanging fruits and quickly maximize timely deliverables for real-time schemas.</p>
-        <div class="row mt-3">
-          <div class="col-sm-2">
-            <div class="pb-1">Age:</div>
-          </div>
-          <div class="col-sm-10">
-            <div class="pb-1 fw-bolder">16</div>
-          </div>
-          <div class="col-sm-2">
-            <div class="pb-1">Email:</div>
-          </div>
-          <div class="col-sm-10">
-            <div class="pb-1 fw-bolder">Kevinaryasaputra15@gmail.com</div>
-          </div>
-          <div class="col-sm-2">
-            <div class="pb-1">Skype:</div>
-          </div>
-          <div class="col-sm-10">
-            <div class="pb-1 fw-bolder">Kvin@skype.com</div>
-          </div>
-          <div class="col-sm-2">
-            <div class="pb-1">Phone:</div>
-          </div>
-          <div class="col-sm-10">
-            <div class="pb-1 fw-bolder">+628557172482</div>
-          </div>
-          <div class="col-sm-2">
-            <div class="pb-1">Address:</div>
-          </div>
-          <div class="col-sm-10">
-            <div class="pb-1 fw-bolder">Jakarta, Indonesia</div>
-          </div>
-          <div class="col-sm-2">
-            <div class="pb-1">Status:</div>
-          </div>
-          <div class="col-sm-10">
-            <div class="pb-1 fw-bolder">Available</div>
-          </div>
+    </nav>
+
+
+
+
+    <!---------------------------------NAVBAR END------------------------------------>
+
+    <!---------------------------------HEADER START---------------------------------->
+    <main class="content">
+        <div class="container home">
+            <div class="row">
+                <div class="col-12">
+                    <div class="header-text">
+                        <img src="{{ asset('Assets-kevin/images/gambar.jpg') }}" alt="Aavtar">
+                        <h1>I am <span>Kevin </span>Arya</h1>
+                        <h2 class="cd-headline clip">
+                            <span class="blc" style="font-family: serif;">I'm a</span>
+                            <span class="cd-words-wrapper" style="font-family: serif;">
+                                <b class="is-visible">Website Designer</b>
+                                <b> Software Developer</b>
+                                <b> UI/UX Designer</b>
+                                <b> Freelancer</b>
+                            </span>
+                        </h2>
+                        <div class="social-icon">
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook facebook"></i></a>
+                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter twitter"></i></a>
+                            <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram instagram"></i></a>
+                            <a href="https://www.linkedin.com/" target="_blank"><i
+                                    class="fa fa-linkedin linkedin" target="_blank"></i></a>
+                            <a href="https://www.youtube.com/" target="_blank"><i
+                                    class="fa fa-youtube-play youtube"></i></a>
+                        </div>
+                        <a href="#contact"><button class="button">Hire Me</button></a>
+                    </div>
+                </div>
+                <div class="col-12 header-arrow">
+                    <div class="scroll-down">
+                        <a href="#about" class="mouse-wrapper">
+                            <span>Scroll Down</span>
+                            <span class="mouse">
+                                <span class="wheel"></span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="col-md-5 offset-md-1" data-aos="fade-left" data-aos-delay="100"><img class="avatar img-fluid mt-2" src="{{ asset('Assets-kevin/images/gambar.jpg') }}" width="350" height="400" alt="Walter Patterson"/></div>
-    </div>
-  </div>
-</div>
-<div class="section px-3 px-lg-4 pt-5" id="services">
-  <div class="container-narrow">
-    <div class="text-center mb-5">
-      <h2 class="marker marker-center">My Services</h2>
-    </div>
-    <div class="text-center">
-      <p class="mx-auto mb-3" style="max-width:600px"> I offer services fit for any website or app. I can quickly maximize timely deliverables for real-time schemas.</p>
-    </div>
-    <div class="row py-3">
-      <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="100"><img class="mb-2" src="{{ asset('Assets-kevin/images/services/web-design.svg') }}" width="96" height="96" alt="web design"/>
-        <div class="h5">Web Design</div>
-      </div>
-      <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="200"><img class="mb-2" src="{{ asset('Assets-kevin/images/services/graphic-design.svg') }}" width="96" height="96" alt="graphic design"/>
-        <div class="h5">Graphic Design</div>
-      </div>
-      <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="300"><img class="mb-2" src="{{ asset('Assets-kevin/images/services/ui-ux.svg') }}" width="96" height="96" alt="ui-ux"/>
-        <div class="h5">UI/UX</div>
-      </div>
-      <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="400"><img class="mb-2" src="{{ asset('Assets-kevin/images/services/app-development.svg') }}" width="96" height="96" alt="app development"/>
-        <div class="h5">App Development</div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="section px-3 px-lg-4 pt-5" id="skills">
-  <div class="container-narrow">
-    <div class="text-center mb-5">
-      <h2 class="marker marker-center">My Skills</h2>
-    </div>
-    <div class="text-center">
-      <p class="mx-auto mb-3" style="max-width:600px">I am a quick learner and specialize in multitude of skills required for Web Application Development and Product Design</p>
-    </div>
-    <div class="bg-light p-3">
-      <div class="row">
-        <div class="col-md-5">
-          <div class="py-1">
-            <div class="d-flex text-small fw-bolder"><span class="me-auto">HTML5</span><span>90%</span></div>
-            <div class="progress my-1">
-              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+
+
+        <!----------------------------------ABOUT START---------------------------------->
+        <section id="about">
+            <div class="container about">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="container-title">About Me</h2>
+                    </div>
+                    <div class="col-lg-5 col-12">
+                        <div class="card-container">
+                            <div class="card-item">
+                                <div class="card-header" style="background-color: var(--secondary-background);">
+                                    <div class="card-header__bg"></div>
+                                    <img src="{{ asset('Assets-kevin/images/gambar.jpg') }}"  alt="Aavtar" class="card-header__img">
+                                    <div class="card-process">
+                                        <li href="#" class="process__item">
+                                            <div class="process-icon follow">
+                                                <i class="fa fa-user-plus"></i>
+                                            </div>
+                                            <span class="process-txt">Follow</span>
+                                        </li>
+                                        <li href="#" class="process__item">
+                                            <div class="process-icon message">
+                                                <i class="fa fa-comments"></i>
+                                            </div>
+                                            <span class="process-txt">Message</span>
+                                        </li>
+                                    </div>
+                                    <div class="card-header__text">
+                                        <span class="card-header__name">
+                                            Kevin Arya  
+                                        </span>
+                                        <span class="card-header__job">
+                                            Website Designer|Software Developer|Freelancer
+                                        </span>
+                                    </div>
+                                    <div class="card-button">
+                                        <a href="https://drive.google.com/" target="_blank"><button class="button">Download CV</button></a>
+                                    </div>
+                                </div>
+                                <div class="card-social">
+                                    <div class="card-social__item">
+                                        <div class="card-social__icon facebook">
+                                            <a href="https://www.facebook.com/" target="_blank"><i
+                                                    class="fa fa-facebook facebook"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="card-social__item">
+                                        <div class="card-social__icon twitter">
+                                            <a href="https://twitter.com/" target="_blank"><i
+                                                    class="fa fa-twitter twitter"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="card-social__item">
+                                        <div class="card-social__icon instagram">
+                                            <a href="https://www.instagram.com/" target="_blank"><i
+                                                    class="fa fa-instagram instagram"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="card-social__item">
+                                        <div class="card-social__icon linkedin">
+                                            <a href="https://www.linkedin.com/" target="_blank"><i
+                                                    class="fa fa-linkedin linkedin"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="card-social__item">
+                                        <div class="card-social__icon youtube">
+                                            <a
+                                                href="https://www.youtube.com/" target="_blank"><i
+                                                    class="fa fa-youtube-play youtube"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-12">
+                        <div class="about-text">
+                            <h1>I'm UI/UX Designer</h1>
+                            <h3>A <span>website Developer</span> Based in <span>India</span></h3>
+                            <p>I design and develop services for customers of all sizes, specializing in creating
+                                stylish,
+                                modern websites, web services and softwares. My passion is to design digital user
+                                experiences through the bold interface and meaningful interactions.</p>
+                            <div class="details">
+                                <div class="about-details">
+                                    <p>Age &nbsp;| &nbsp;16 Years</p>
+                                    <p>Country &nbsp;| &nbsp;Indonesia</p>
+                                    <p>Freelance &nbsp;|&nbsp; Available</p>
+                                    <p>Birthday &nbsp;| &nbsp;16 Maret 2006</p>
+
+                                </div>
+                                <div class="about-details1">
+                                    <p>Skype &nbsp;|&nbsp; live:Kevin</p>
+                                    <p>Phone &nbsp;|&nbsp; +6223525325</p>
+                                    <p>Address &nbsp;|&nbsp; Jakarta, Indonesia</p>
+                                    <p>Email &nbsp;|&nbsp;Kevin@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="py-1">
-            <div class="d-flex text-small fw-bolder"><span class="me-auto">CSS3</span><span>90%</span></div>
-            <div class="progress my-1">
-              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="200" data-aos-anchor=".skills-section" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+        </section>
+
+
+        <!----------------------------------ABOUT END------------------------------------>
+
+
+        <!---------------------------------SKILLS START---------------------------------->
+        <section id="skills">
+            <div class="container skills">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="container-title">Skills</h2>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="skill-box">
+                            <div class="skill">
+                                <div class="skill-name">HTML/CSS</div>
+                                <div class="skill-bar">
+                                    <div class="skill-per color1" per="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-name">C</div>
+                                <div class="skill-bar">
+                                    <div class="skill-per color2" per="80"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-name">C++</div>
+                                <div class="skill-bar">
+                                    <div class="skill-per color3" per="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="skill-box">
+                            <div class="skill">
+                                <div class="skill-name">JAVA</div>
+                                <div class="skill-bar">
+                                    <div class="skill-per color1" per="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-name">PHP</div>
+                                <div class="skill-bar">
+                                    <div class="skill-per color2" per="80"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-name">Javascript</div>
+                                <div class="skill-bar">
+                                    <div class="skill-per color3" per="70"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="py-1">
-            <div class="d-flex text-small fw-bolder"><span class="me-auto">JavaScript</span><span>80%</span></div>
-            <div class="progress my-1">
-              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+        </section>
+
+        <!---------------------------------SKILLS END---------------------------------->
+
+
+        <!-------------------------------SERVICES START-------------------------------->
+
+        <section id="services">
+            <div class="container services">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="container-title">Services</h2>
+                    </div>
+                    <div class="col-12 services-container">
+                        <div class="col-md-4">
+                            <!-- service box -->
+                            <div class="service-box text-center color3">
+                                <img src="{{ asset('Assets-kevin/images/icons/uiux_design.png') }}" alt="UI/UX Designs" />
+                                <h3 class="mb-3 mt-0">UI/UX Design</h3>
+                                <p class="mb-0">I create best UI/UX designs. user experience and user interface are the
+                                    key feature of my development.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <!-- service box -->
+                            <div class="service-box text-center color1">
+                                <img src="{{ asset('Assets-kevin/images/icons/web_development.png') }}" alt="Web Development" />
+                                <h3 class="mb-3 mt-0" style="color: black;">Web Development</h3>
+                                <p class="mb-0" style="color: black;">Create web application with admin panel and all
+                                    the latest features and customer support.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <!-- service box -->
+                            <div class="service-box text-center color2">
+                                <img src="{{ asset('Assets-kevin/images/icons/software_development.png') }}" alt="Software Development" />
+                                <h3 class="mb-3 mt-0">Software Development</h3>
+                                <p class="mb-0">Develop software for your company or business so it helps you to manage
+                                    your business easily.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <!-- service box -->
+                            <div class="service-box text-center color3">
+                                <img src="{{ asset('Assets-kevin/images/icons/graphic_design.png') }}" alt="Graphics Design" />
+                                <h3 class="mb-3 mt-0">Graphics Design</h3>
+                                <p class="mb-0">Create professional logo and graphics designs for your brand and company
+                                    like poster, flyers etc.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <!-- service box -->
+                            <div class="service-box text-center color1">
+                                <img src="{{ asset('Assets-kevin/images/icons/website_design.png') }}" alt="Website Designing" />
+                                <h3 class="mb-3 mt-0" style="color: black;">Website Designing</h3>
+                                <p class="mb-0" style="color: black;">Create professional looking website for your
+                                    company or business and sell your products and services online.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <!-- service box -->
+                            <div class="service-box text-center color2">
+                                <img src="{{ asset('Assets-kevin/images/icons/freelance.png') }}" alt="Freelancing" />
+                                <h3 class="mb-3 mt-0">Freelancing</h3>
+                                <p class="mb-0">I am available for freelance work so if you need any of your project to
+                                    be done you can contact me.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-5 text-center hireme">
+                            <p class="mb-0">Looking for a Freelancer? <a href="#contact">Click here</a> to contact me!
+                                👋</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="py-1">
-            <div class="d-flex text-small fw-bolder"><span class="me-auto">React</span><span>75%</span></div>
-            <div class="progress my-1">
-              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+        </section>
+
+        <!-------------------------------SERVICES END---------------------------------->
+
+
+        <!-----------------------------EXPERIENCE START-------------------------------->
+
+        <section id="experience">
+            <div class="container experience">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="container-title">Experience</h2>
+                    </div>
+                    <div class="col-md-6">
+
+                        <!-- timeline wrapper -->
+                        <div class="timeline edu">
+
+                            <!-- timeline item -->
+                            <div class="timeline-container">
+                                <div class="content">
+                                    <span class="time">2018 - 2021</span>
+                                    <h3 class="title">Bachelor’s Degree</h3>
+                                    <p>Completed my Bachelor's of computer application from Dezyne E'cole college.</p>
+                                </div>
+                            </div>
+
+                            <!-- timeline item -->
+                            <div class="timeline-container">
+                                <div class="content">
+                                    <span class="time">2017 - 2018</span>
+                                    <h3 class="title">Higher Secondary</h3>
+                                    <p>Completed my higher secondary education from Queen mary's school.</p>
+                                </div>
+                            </div>
+
+                            <!-- timeline item -->
+                            <div class="timeline-container">
+                                <div class="content">
+                                    <span class="time">2015 - 2016</span>
+                                    <h3 class="title">Senior Secondary</h3>
+                                    <p>Completed my senior secondary education from St. paul's sr. sec school.</p>
+                                </div>
+                            </div>
+
+                            <!-- main line -->
+                            <span class="line"></span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6">
+                        <!-- timeline wrapper -->
+                        <div class="timeline exp ">
+                            <!-- timeline item -->
+                            <div class="timeline-container wow fadeInUp">
+                                <div class="content">
+                                    <span class="time">2017 - Present</span>
+                                    <h3 class="title">Website Designing</h3>
+                                    <p>I have a rich experience in website designing and development.</p>
+                                </div>
+                            </div>
+
+                            <!-- timeline item -->
+                            <div class="timeline-container wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="content">
+                                    <span class="time">2018 - Present</span>
+                                    <h3 class="title">Software Development</h3>
+                                    <p>I have a great experience in software designing and development.</p>
+                                </div>
+                            </div>
+
+                            <!-- timeline item -->
+                            <div class="timeline-container wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="content">
+                                    <span class="time">2017 - Present</span>
+                                    <h3 class="title">Freelancing</h3>
+                                    <p>I have Excellent experience in freelancing. My first priority is customer
+                                        satisfaction.</p>
+                                </div>
+                            </div>
+
+                            <!-- main line -->
+                            <span class="line"></span>
+
+                        </div>
+
+                    </div>
+                </div>
             </div>
-          </div>
+        </section>
+
+
+
+
+        <!-----------------------------EXPERIENCE START-------------------------------->
+
+
+        <!-------------------------------HIREME START---------------------------------->
+
+        <section id="hire">
+            <div class="container hire">
+                <div class="col-12">
+                    <div class="hire-text">
+                        <h1>Hire Me For Your Awesome Project</h1>
+                        <h5 class="m-3">I am Available for freelance work so if you need any of your project to be done
+                            you can contact me.</h5>
+                        <a href="#contact"><button class="button m-3">Hire Me</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--------------------------------HIREME END----------------------------------->
+
+
+        <!------------------------------PROJECTS START--------------------------------->
+
+
+        <section id="projects">
+            <div class="container projects">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="container-title">Projects</h2>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="news-slider" class="owl-carousel">
+                            <div class="post-slide">
+                                <div class="post-img">
+                                    <img src="{{ asset('Assets-kevin/images/projects/portfolio.PNG') }}" alt="Portfolio Image">
+                                    <div class="category">Website</div>
+                                </div>
+                                <div class="post-review">
+                                    <h3 class="post-title"><a href="coming_soon/index.html">A Website on Personal Portfolio &
+                                            Resume</a></h3>
+                                    <p class="post-description">
+                                        I Created a website on personal portfolio & resume using Html, css, javascript
+                                        and Bootstrap language. It is created to showcase my work, projects and other
+                                        details that is required in resume.
+                                    </p>
+                                    <div class="post-bar">
+                                        <span><i class="fa fa-user"></i>By: Admin</span>
+                                        <span class="comments"><i class="fa fa-comments"></i> <a
+                                                href="coming_soon/index.html">Read More</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post-slide">
+                                <div class="post-img">
+                                    <img src="{{ asset('Assets-kevin/images/projects/bank.jpg') }}" alt="Bank Image">
+                                    <div class="category">Software</div>
+                                </div>
+                                <div class="post-review">
+                                    <h3 class="post-title"><a href="coming_soon/index.html">Banking Service Software in c++
+                                            language</a></h3>
+                                    <p class="post-description">
+                                        I created this software in c++ language. This software provides all the banking
+                                        facilities in one place like opening and closing account, deposit and withdraw
+                                        money, change pin, open fd a/c etc.
+                                    </p>
+                                    <div class="post-bar">
+                                        <span><i class="fa fa-user"></i>By: Admin</span>
+                                        <span class="comments"><i class="fa fa-comments"></i> <a
+                                                href="coming_soon/index.html">Read More</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post-slide">
+                                <div class="post-img">
+                                    <img src="{{ asset('Assets-kevin/images/projects/voiceassistant.jpg') }}" alt="voice Assistant Image">
+                                    <div class="category">Software</div>
+                                </div>
+                                <div class="post-review">
+                                    <h3 class="post-title"><a href="coming_soon/index.html">Jarvis Desktop Assistant in Python
+                                            language</a></h3>
+                                    <p class="post-description">
+                                        I created this software in python language. with the help of this software we
+                                        can operate our pc by our voice just like google assistant. we can play song in
+                                        our pc by saying hey jarvis play music.
+                                    </p>
+                                    <div class="post-bar">
+                                        <span><i class="fa fa-user"></i>By: Admin</span>
+                                        <span class="comments"><i class="fa fa-comments"></i> <a
+                                                href="coming_soon/index.html">Read More</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post-slide">
+                                <div class="post-img">
+                                    <img src="{{ asset('Assets-kevin/images/projects/brickbreaker.jpg') }}" alt="Game Image">
+                                    <div class="category">Game</div>
+                                </div>
+                                <div class="post-review">
+                                    <h3 class="post-title"><a href="coming_soon/index.html">Brick Breaker game in java
+                                            language</a></h3>
+                                    <p class="post-description">
+                                        I created this brick breaker game in java language. This game is created for
+                                        entertainment purpose. In this game, after completing certain bars the
+                                        difficulty level of this game is increase.
+                                    </p>
+                                    <div class="post-bar">
+                                        <span><i class="fa fa-user"></i>By: Admin</span>
+                                        <span class="comments"><i class="fa fa-comments"></i> <a
+                                                href="coming_soon/index.html">Read More</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post-slide">
+                                <div class="post-img">
+                                    <img src="{{ asset('Assets-kevin/images/projects/smart_watch.PNG') }}" alt="Website Image">
+                                    <div class="category">Website</div>
+                                </div>
+                                <div class="post-review">
+                                    <h3 class="post-title"><a href="coming_soon/index.html">A Website on apple smart
+                                            watches</a></h3>
+                                    <p class="post-description">
+                                        I Created a website on smart watches using Html, css, javascript and Bootstrap
+                                        language. This website is created to showcase all the details and new features
+                                        of apple smart watches.
+                                    </p>
+                                    <div class="post-bar">
+                                        <span><i class="fa fa-user"></i>By: Admin</span>
+                                        <span class="comments"><i class="fa fa-comments"></i> <a
+                                        href="coming_soon/index.html">Read More</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!------------------------------PROJECTS END----------------------------------->
+
+
+        <!---------------------------TESTIMONIALS START-------------------------------->
+
+        <section id="testimonial">
+            <div class="container testimonial">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="container-title">Reviews</h2>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="testimonial-slider" class="owl-carousel">
+                            <div class="testimonial-box">
+                                <div class="pic">
+                                    <img src="{{ asset('Assets-kevin/images/profile/user.svg') }}" alt="client" />
+                                </div>
+                                <h3 class="testimonial-title">
+                                    Kartik Choubey
+                                </h3>
+                                <p class="description">
+                                    Excellent, working with Kevin Arya was great. Thanks to their knowledge and
+                                    determination our website looks great and functions really good. I am recommend
+                                    anyone that is looking for a custom website to give them a call, he will guide you
+                                    to the right direction 🔥
+                                </p>
+                            </div>
+
+                            <div class="testimonial-box">
+                                <div class="pic">
+                                    <img src="{{ asset('Assets-kevin/images/profile/user1.svg') }}" alt="client" />
+                                </div>
+                                <h3 class="testimonial-title">
+                                    Nikhil Yadav
+                                </h3>
+                                <p class="description">
+                                    My new site created by Kevin just launched. He done a great job of creating exactly
+                                    what I wanted. Easy to work with and very responsive. They met all of my
+                                    expectations and had a lot of insight regarding marketing tools I didn't know
+                                    existed 👏
+                                </p>
+                            </div>
+
+                            <div class="testimonial-box">
+                                <div class="pic">
+                                    <img src="{{ asset('Assets-kevin/images/profile/user2.svg') }}" alt="client" />
+                                </div>
+                                <h3 class="testimonial-title">
+                                    Vishal Loungani
+                                </h3>
+                                <p class="description">
+                                    I have been very happy with the customer service and the attention to detail. I
+                                    highly recommend Kevin for both your website and SEO needs. I trust that Yash will do
+                                    what is needed to be sure their clients are completely satisfied 👍
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-3 text-center hireme">
+                        <p class="mb-0">want to write a <a href="https://g.page/Yashgaur908/review?gm">review</a> for me ? 🔥</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!---------------------------TESTIMONIALS END---------------------------------->
+
+        <!----------------------------CONTACT START------------------------------------>
+
+
+
+        <section id="contact">
+            <div class="container contact">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="container-title">Get In Touch</h2>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="contact-card">
+                            <div class="follow-card">
+                                <div class="card-title">
+                                    <img class="card-img" src="{{ asset('Assets-kevin/images/gambar.jpg') }}" alt="Aavtar">
+                                    <div class="card-title-text">
+                                        <h4>Kevin Arya</h4>
+                                        <h6>@Kpinn</h6>
+                                    </div>
+                                </div>
+                                <div class="card-text">
+                                    <p class="description">
+                                        Self motivated and hard working developer seeking for an opportunity to work in a
+                                        challenging environment to prove my skill and utilize my knowledge &
+                                        intelligence in the growth of the organization.
+                                    </p>
+                                </div>
+                                <div class="card-btn">
+                                    <a href="https://www.instagram.com/gaur_yash_" target="_blank"><button class="button">Follow</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center hireme">
+                            <p class="mb-0">Don't Like Forms? <a href="">Click here</a> to
+                                send me an Email! 📩</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-12 ">
+                        <div class="contact-form">
+                            <form action="email.php" method="post">
+                                <div class="row form-box">
+                                    <div class="col-lg-6 col-12">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control mb-30" name="name"
+                                                placeholder="Name *" required="required">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-12">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control mb-30" name="email"
+                                                placeholder="Email *" required="required">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-12">
+                                        <div class="form-group">
+                                            <input type="text" name="subject" class="form-control mb-30" name="subject"
+                                                placeholder="Subject *" required="required">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12 col-12">
+                                        <div class="form-group">
+                                            <textarea class="form-control mb-30" name="message" rows="8" cols="80"
+                                                placeholder="Message *" name="email" required="required"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-8 col-sm-10">
+                                        <button class="button" type="submit" value="submit">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-----------------------------CONTACT END------------------------------------->
+
+    </main>
+
+    <!------------------------------FOOTER START----------------------------------->
+
+
+
+    <footer class="new_footer_area bg_color">
+        <div class="new_footer_top">
+            <div class="footer_bg">
+                <div class="footer_bg_one"></div>
+                <div class="footer_bg_two"></div>
+            </div>
         </div>
-        <div class="col-md-5 offset-md-2">
-          <div class="py-1">
-            <div class="d-flex text-small fw-bolder"><span class="me-auto">PHP</span><span>70%</span></div>
-            <div class="progress my-1">
-              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+        <div class="footer_bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 text-center">
+                        <p class="mb-0 f_400">© Kevin Arya <script>document.write(new Date().getFullYear())</script> All rights reserved.</p>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="py-1">
-            <div class="d-flex text-small fw-bolder"><span class="me-auto">WordPress</span><span>70%</span></div>
-            <div class="progress my-1">
-              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="500" data-aos-anchor=".skills-section" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="py-1">
-            <div class="d-flex text-small fw-bolder"><span class="me-auto">MySQL</span><span>60%</span></div>
-            <div class="progress my-1">
-              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="py-1">
-            <div class="d-flex text-small fw-bolder"><span class="me-auto">Photoshop</span><span>60%</span></div>
-            <div class="progress my-1">
-              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="section px-2 px-lg-4 pt-5" id="portfolio">
-  <div class="container">
-    <div class="text-center mb-5">
-      <h2 class="marker marker-center">Portfolio </h2>
-    </div>
-    <div class="grid bp-gallery pb-3" data-aos="zoom-in-up" data-aos-delay="100">
-      <div class="grid-sizer"></div>
-      <div class="grid-item"><a href="https://dribbble.com">
-          <figure class="portfolio-item"><img src="{{ asset('Assets-kevin/images/portfolio/1-small.png') }}" data-bp="{{ asset('Assets-kevin/images/portfolio/1.jpg') }}"/>
-            <figcaption>
-              <h4 class="h5 mb-0">Web Design</h4>
-              <div>Dribbble.com</div>
-            </figcaption>
-          </figure></a></div>
-      <div class="grid-item"><a href="https://github.com">
-          <figure class="portfolio-item"><img src="{{ asset('Assets-kevin/images/portfolio/2-small.png') }}" data-bp="{{ asset('Assets-kevin/images/portfolio/2.jpg') }}" data-caption="Example of an optional caption."/>
-            <figcaption> 
-              <h4 class="h5 mb-0">Web Development</h4>
-              <div>GitHub.com</div>
-            </figcaption>
-          </figure></a></div>
-      <div class="grid-item"><a href="https://soundcloud.com/">
-          <figure class="portfolio-item"><img src="{{ asset('Assets-kevin/images/portfolio/3-small.png') }}" data-bp="{{ asset('Assets-kevin/images/portfolio/3.jpg') }}" data-caption="Example of an optional caption."/>
-            <figcaption> 
-              <h4 class="h5 mb-0">Audio Mixing</h4>
-              <div>Soundcloud.com</div>
-            </figcaption>
-          </figure></a></div>
-      <div class="grid-item"><a href="https://www.adobe.com/">
-          <figure class="portfolio-item"><img src="{{ asset('Assets-kevin/images/portfolio/4-small.png') }}" data-bp="{{ asset('Assets-kevin/images/portfolio/4.jpg') }}"/>
-            <figcaption>
-              <h4 class="h5 mb-0">Video Editing</h4>
-              <div>Adobe After Effects</div>
-            </figcaption>
-          </figure></a></div>
-      <div class="grid-item"><a href="https://www.adobe.com/">
-          <figure class="portfolio-item"><img src="{{ asset('Assets-kevin/images/portfolio/5-small.png') }}" data-bp="{{ asset('Assets-kevin/images/portfolio/5.jpg') }}"/>
-            <figcaption>
-              <h4 class="h5 mb-0">Photography</h4>
-              <div>Adobe Photoshop</div>
-            </figcaption>
-          </figure></a></div>
-      <div class="grid-item"><a href="https://www.android.com/">
-          <figure class="portfolio-item"><img src="{{ asset('Assets-kevin/images/portfolio/6-small.png') }}" data-bp="{{ asset('Assets-kevin/images/portfolio/6.jpg') }}"/>
-            <figcaption>
-              <h4 class="h5 mb-0">App Development</h4>
-              <div>Android</div>
-            </figcaption>
-          </figure></a></div>
-      <div class="grid-item"><a href="https://flutter.dev/">
-          <figure class="portfolio-item"><img src="{{ asset('Assets-kevin/images/portfolio/7-small.png') }}" data-bp="{{ asset('Assets-kevin/images/portfolio/7.jpg') }}"/>
-            <figcaption>
-              <h4 class="h5 mb-0">App Design</h4>
-              <div>Flutter</div>
-            </figcaption>
-          </figure></a></div>
-      <div class="grid-item"><a href="https://flutter.dev/">
-          <figure class="portfolio-item"><img src="{{ asset('Assets-kevin/images/portfolio/8-small.png') }}" data-bp="{{ asset('Assets-kevin/images/portfolio/8.jpg') }}"/>
-            <figcaption>
-              <h4 class="h5 mb-0">App Development</h4>
-              <div>Flutter</div>
-            </figcaption>
-          </figure></a></div>
-    </div>
-  </div>
-</div>
-<div class="section px-3 px-lg-4 pt-5" id="experience">
-  <div class="container-narrow">
-    <div class="text-center mb-5">
-      <h2 class="marker marker-center">Experience</h2>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <div class="card mb-3" data-aos="fade-right" data-aos-delay="100">
-          <div class="card-header px-3 py-2">
-            <div class="d-flex justify-content-between">
-              <div>
-                <h3 class="h5 mb-1">UI/UX Design</h3>
-                <div class="text-muted text-small">Designerr Inc. <small>(2012-2014)</small></div>
-              </div><img src="{{ asset('Assets-kevin/images/services/ui-ux.svg') }}" width="48" height="48" alt="ui-ux"/>
-            </div>
-          </div>
-          <div class="card-body px-3 py-2">
-            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-            <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="card mb-3" data-aos="fade-left" data-aos-delay="300">
-          <div class="card-header px-3 py-2">
-            <div class="d-flex justify-content-between">
-              <div>
-                <h3 class="h5 mb-1">App Development</h3>
-                <div class="text-muted text-small">MakeMyApp LLC. <small>(2015-2018)</small></div>
-              </div><img src="{{ asset('Assets-kevin/images/services/app-development.svg') }}" width="48" height="48" alt="app development"/>
-            </div>
-          </div>
-          <div class="card-body px-3 py-2">
-            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-            <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="card mb-3" data-aos="fade-right" data-aos-delay="200">
-          <div class="card-header px-3 py-2">
-            <div class="d-flex justify-content-between">
-              <div>
-                <h3 class="h5 mb-1">Web Design</h3>
-                <div class="text-muted text-small">Webbie LLC. <small>(2018-2020)</small></div>
-              </div><img src="{{ asset('Assets-kevin/images/services/web-design.svg') }}" width="48" height="48" alt="web design"/>
-            </div>
-          </div>
-          <div class="card-body px-3 py-2">
-            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-            <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="card mb-3" data-aos="fade-left" data-aos-delay="400">
-          <div class="card-header px-3 py-2">
-            <div class="d-flex justify-content-between">
-              <div>
-                <h3 class="h5 mb-1">Full Stack Development</h3>
-                <div class="text-muted text-small">Coder Inc. <small>(2020-2021)</small></div>
-              </div><img src="{{ asset('Assets-kevin/images/services/full-stack.svg') }}" width="48" height="48" alt="full stack"/>
-            </div>
-          </div>
-          <div class="card-body px-3 py-2">
-            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-            <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="section px-3 px-lg-4 pt-5" id="testimonials">
-  <div class="container-narrow">
-    <div class="text-center mb-5">
-      <h2 class="marker marker-center">Client Testimonials</h2>
-    </div>
-    <div class="row"> 
-      <div class="col-md-6 mb-5" data-aos="fade-right" data-aos-delay="100">
-        <div class="d-flex ms-md-3"><span><i class="fas fa-2x fa-quote-left"></i></span><span class="m-2">Kevin displays exemplary professionalism and is able to take on challenges. He learns quickly and is an asset to any team.</span></div>
-        <div class="d-flex justify-content-end align-items-end">
-          <div class="text-end me-2">
-            <div class="fw-bolder">Aiyana</div>
-            <div class="text-small">CEO / Web Design Company</div>
-          </div><img class="me-md-3 rounded" src="{{ asset('Assets-kevin/images/testimonials/client1.jpg') }}" width="96" height="96" alt="client 1"/>
-        </div>
-      </div>
-      <div class="col-md-6 mb-5" data-aos="fade-left" data-aos-delay="300">
-        <div class="d-flex ms-md-3"><span><i class="fas fa-2x fa-quote-left"></i></span><span class="m-2">Kevin displays exemplary professionalism and is able to take on challenges. He learns quickly and is an asset to any team.</span></div>
-        <div class="d-flex justify-content-end align-items-end">
-          <div class="text-end me-2">
-            <div class="fw-bolder">Alexander</div>
-            <div class="text-small">CEO / Web Design Company</div>
-          </div><img class="me-md-3 rounded" src="{{ asset('Assets-kevin/images/testimonials/client2.jpg') }}" width="96" height="96" alt="client 1"/>
-        </div>
-      </div>
-      <div class="col-md-6 mb-5" data-aos="fade-right" data-aos-delay="200">
-        <div class="d-flex ms-md-3"><span><i class="fas fa-2x fa-quote-left"></i></span><span class="m-2">Kevin is a great co-worker and problem solver. He is quick to extend his helping hand and makes a good team player.</span></div>
-        <div class="d-flex justify-content-end align-items-end">
-          <div class="text-end me-2">
-            <div class="fw-bolder">Ariya</div>
-            <div class="text-small">Web Developer</div>
-          </div><img class="me-md-3 rounded" src="{{ asset('Assets-kevin/images/testimonials/client3.jpg') }}" width="96" height="96" alt="client 1"/>
-        </div>
-      </div>
-      <div class="col-md-6 mb-5" data-aos="fade-left" data-aos-delay="400">
-        <div class="d-flex ms-md-3"><span><i class="fas fa-2x fa-quote-left"></i></span><span class="m-2">Kevin is a great co-worker and problem solver. He is quick to extend his helping hand and makes a good team player.</span></div>
-        <div class="d-flex justify-content-end align-items-end">
-          <div class="text-end me-2">
-            <div class="fw-bolder">Braiden</div>
-            <div class="text-small">Web Designer</div>
-          </div><img class="me-md-3 rounded" src="{{ asset('Assets-kevin/images/testimonials/client4.jpg') }}" width="96" height="96" alt="client 1"/>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="section px-2 px-lg-4 pb-4 pt-5 mb-5" id="contact">
-  <div class="container-narrow">
-    <div class="text-center mb-5">
-      <h2 class="marker marker-center">Contact Me</h2>
-    </div>
-    <div class="row">
-      <div class="col-md-6" data-aos="zoom-in" data-aos-delay="100">
-        <div class="bg-light my-2 p-3 pt-2"><form action="https://formspree.io/your@email.com"
-    method="POST">
-    <div class="form-group my-2">
-      <label for="name" class="form-label fw-bolder">Name</label>
-      <input class="form-control" type="text" id="name" name="name" required>
-    </div>
-    <div class="form-group my-2">
-      <label for="email" class="form-label fw-bolder">Email</label>
-      <input class="form-control" type="email" id="email" name="_replyto" required>
-    </div>
-  <div class="form-group my-2">
-    <label for="message" class="form-label fw-bolder">Message</label>
-    <textarea class="form-control" style="resize: none;" id="message" name="message" rows="4" required></textarea>
-  </div>
-  <button class="btn btn-primary mt-2" type="submit">Send</button>
-</form>
-        </div>
-      </div>
-      <div class="col-md-6" data-aos="fade-left" data-aos-delay="300">
-        <div class="mt-3 px-1">
-          <div class="h5">Let’s talk how I can help you!</div>
-          <p>If you like my work and want to avail my services then drop me a message using the contact form. </p>
-          <p>Or get in touch using my email, skype or my contact number.</p>
-          <p>See you!</p>
-        </div>
-        <div class="mt-53 px-1">
-          <div class="row"> 
-            <div class="col-sm-2">
-              <div class="pb-1">Email:</div>
-            </div>
-            <div class="col-sm-10">
-              <div class="pb-1 fw-bolder">Kevin@company.com</div>
-            </div>
-            <div class="col-sm-2">
-              <div class="pb-1">Skype:</div>
-            </div>
-            <div class="col-sm-10">
-              <div class="pb-1 fw-bolder">123@skype.com</div>
-            </div>
-            <div class="col-sm-2">
-              <div class="pb-1">Phone:</div>
-            </div>
-            <div class="col-sm-10">
-              <div class="pb-1 fw-bolder">+621241254636</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<footer class="pt-4 pb-4 text-center bg-light">
-  <div class="container">
-    <div class="my-3">
-      <div class="h4">Kevin Arya Saputra</div>
-      <p>Web Developer & Mobile Application Developer</p>
-      <div class="social-nav">
-        <nav role="navigation">
-          <ul class="nav justify-content-center">
-            <li class="nav-item"><a class="nav-link" href="https://twitter.com/" title="Twitter"><i class="fab fa-twitter"></i><span class="menu-title sr-only">Twitter</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/" title="Facebook"><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/?hl=id" title="Instagram"><i class="fab fa-instagram"></i><span class="menu-title sr-only">Instagram</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/" title="LinkedIn"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">LinkedIn</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="https://www.behance.net/" title="Behance"><i class="fab fa-behance"></i><span class="menu-title sr-only">Behance</span></a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </div>
-</footer></div>
-    </div>
-    <div id="scrolltop"><a class="btn btn-secondary" href="#top"><span class="icon"><i class="fas fa-angle-up fa-x"></i></span></a></div>
-    <script src="{{ asset('Assets-kevin/scripts/imagesloaded.pkgd.min.js?ver=1.2.0') }}"></script>
-    <script src="{{ asset('Assets-kevin/scripts/masonry.pkgd.min.js?ver=1.2.0') }}"></script>
-    <script src="{{ asset('Assets-kevin/scripts/BigPicture.min.js?ver=1.2.0') }}"></script>
-    <script src="{{ asset('Assets-kevin/scripts/purecounter.min.js?ver=1.2.0') }}"></script>
-    <script src="{{ asset('Assets-kevin/scripts/bootstrap.bundle.min.js?ver=1.2.0') }}"></script>
-    <script src="{{ asset('Assets-kevin/scripts/aos.min.js?ver=1.2.0') }}"></script>
-    <script src="{{ asset('Assets-kevin/scripts/main.js?ver=1.2.0') }}"></script>
-  </body>
+    </footer>
+
+
+
+    <!------------------------------FOOTER END------------------------------------->
+
+
+    <script>
+
+        $(window).scroll(function () {
+            $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+        });
+
+    </script>
+
+    <script src="{{ asset('Assets-kevin/js/main.js') }}"></script>
+
+    <script type="text/javascript" src="{{ asset('Assets-kevin/js/animated.headline.js') }}"></script>
+
+
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+</body>
+
 </html>
