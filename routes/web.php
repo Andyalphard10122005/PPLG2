@@ -18,6 +18,7 @@ use App\Http\Controllers\Jeffry;
 use App\Http\Controllers\Agung;
 use App\Http\Controllers\Selvi;
 use App\Http\Controllers\Sayiddina_Farhan;
+use App\Http\Controllers\Kiagus;
 
 
 
@@ -72,4 +73,5 @@ Route::get('members/radit', [App\Http\Controllers\Raditya::class, 'index'])->nam
 Route::get('members/miftah', [App\Http\Controllers\Ahmad_miftah::class, 'index'])->name('Ahmad_Miftah.miftah');
 Route::get('members/dimas', [App\Http\Controllers\Dimas::class, 'index'])->name('Dimas.dimas');
 Route::get('members/rei', [App\Http\Controllers\Rei::class, 'index'])->name('Rei.rei');
+Route::get('members/kiagus', [App\Http\Controllers\Kiagus::class, 'index'])->name('Kiagus.kiagus');
 
