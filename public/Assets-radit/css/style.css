@@ -385,7 +385,7 @@ main img{
     width: 26em;
     height: 2em;
     background-color: transparent;
-    border: 1px solid #282828;
+    border: 1px solid #303030;
     border-bottom: 1px solid #83dfed;
     margin-bottom: 3em;
     padding: 10px 5px;
@@ -405,7 +405,7 @@ main img{
     resize: none;
     background-color: transparent;
     border: none;
-    border: 1px solid #282828;
+    border: 1px solid #303030;
     border-bottom: 2px solid #83dfed;
     color: #e0e0e0;
 }
