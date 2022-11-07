@@ -12,7 +12,6 @@
 		<div class="resume">
 			<div class="Photo">
 				<div class="img_holder">
-					<!-- rubah photo sesuai nama file , file harus di taruh dalam lokasi yang sama dengan index.html -->
 					<img src="{{ asset('Assets-nail/CIMG5210.JPG') }}" alt="picture">
 				</div>
 				<div class="left">
@@ -25,20 +24,18 @@
 								<li>
 									<div class="li_wrap">
 										<div class="icon">
-											<!-- ganti icon cek di font awesome, di replace saja class icon di tag <i> nya -->
 											<i class="fas fa-mobile-alt" aria-hidden="true">
 											</i></div>
-										<!-- ganti ke no telpon/handphone Teman-teman -->
+
 										<div class="text">+62895355176688</div>
 									</div>
 								</li>
 								<li>
 									<div class="li_wrap">
 										<div class="icon">
-											<!-- ganti icon cek di font awesome, di replace saja class icon di tag <i> nya -->
 											<i class="fas fa-envelope" aria-hidden="true">
 											</i></div>
-										<!-- ganti ke email Teman-teman -->
+
 										<div class="text">Khairannail06@gmail.com</div>
 									</div>
 								</li>
@@ -46,9 +43,7 @@
 								<li>
 									<div class="li_wrap">
 										<div class="icon">
-											<!-- ganti icon cek di font awesome, di replace saja class icon di tag <i> nya -->
 											<i class="fas fa-map-signs" aria-hidden="true"></i></div>
-										<!-- ganti ke alamat Teman-teman -->
 										<div class="text">Jl.Rawa Sari RT 05 RW 06,Depok,Jawa Barat</div>
 									</div>
 								</li>
@@ -64,36 +59,28 @@
 								<li>
 									<div class="li_wrap">
 										<div class="icon">
-											<!-- ganti icon cek di font awesome, di replace saja class icon di tag <i> nya -->
 											<i class="fab fa-html5"></i></div>
-										<!-- ganti ke skill Teman-teman -->
 										<div class="text">HTML</div>
 									</div>
 								</li>
 								<li>
 									<div class="li_wrap">
 										<div class="icon">
-											<!-- ganti icon cek di font awesome, di replace saja class icon di tag <i> nya -->
 											<i class="fab fa-css3-alt"></i></div>
-										<!-- ganti ke skill Teman-teman -->
 										<div class="text">CSS</div>
 									</div>
 								</li>
 								<li>
 									<div class="li_wrap">
 										<div class="icon">
-											<!-- ganti icon cek di font awesome, di replace saja class icon di tag <i> nya -->
 											<i class="fa-brands fa-figma" style="margin-left: 15px;"></i>
-										<!-- ganti ke skill Teman-teman -->
 										<div class="text">Figma</div>
 									</div>
 								</li>
 								<li>
 									<div class="li_wrap">
 										<div class="icon">
-											<!-- ganti icon cek di font awesome, di replace saja class icon di tag <i> nya -->
 											<i class="fa-brands fa-bootstrap" style="margin-left: 20px;"></i>
-										<!-- ganti ke skill Teman-teman -->
 										<div class="text">Boostrap</div>
 									</div>
 								</li>
@@ -110,34 +97,29 @@
 								<li>
 									<div class="li_wrap">
 										<div class="icon">
-											<!-- ganti icon cek di font awesome, di replace saja class icon di tag <i> nya -->
 												<i class="fa-solid fa-motorcycle" style="margin-left: 25px"></i>
-										<!-- ganti ke Hobi Teman-teman -->
 										<div class="text">Motorized</div>
 									</div>
 								</li>
 								<li>
 									<div class="li_wrap">
 										<div class="icon">
-											<!-- ganti icon cek di font awesome, di replace saja class icon di tag <i> nya -->
 											<i class="fas fa-music"></i></div>
-											<!-- ganti ke Hobi Teman-teman -->
+
 										<div class="text">Music</div>
 									</div>
 								</li>
 								<li>
 									<div class="li_wrap">
 										<div class="icon">
-											<!-- ganti icon cek di font awesome, di replace saja class icon di tag <i> nya -->
 											<i class="fas fa-gamepad"></i></div>
-											<!-- ganti ke Hobi Teman-teman -->
+
 										<div class="text">Gaming</div>
 									</div>
 								</li>
 								<li>
 									<div class="li_wrap">
 										<div class="icon">
-											<!-- ganti icon cek di font awesome, di replace saja class icon di tag <i> nya -->
 									</div>
 								</li>
 							</ul>
@@ -150,11 +132,10 @@
 			<div class="right">
 				<div class="header">
 					<div class="name_role">
-						<!-- ganti ke nama Teman-teman -->
 						<div class="name">
 							Khairan Nail.F
 						</div>
-						<!-- ganti ke profesi Teman-teman, boleh fresh Graduate -->
+
 						<div class="role">
 							Vocational High School
 						</div>
@@ -167,14 +148,15 @@
 						</div>
 
 						<div class="exp_wrap">
-							<!-- bagian ini sesuai kan dengan pengalaman kerja teman-teman , magang juga termasuk loh  -->
 							<ul>
 								<li>
 									<div class="li_wrap">
 										<div class="date">
 											-Life Experience
-                                            -Made a working inventory storage dashboard with CRUD system using native php
-                                            -
+                                            <br>
+                                            -Made a working inventory storage
+                                             dashboard with CRUD system using native php
+
 										</div>
 										<div class="info">
 											<p class="info_title">
@@ -190,47 +172,7 @@
 										</div>
 									</div>
 								</li>
-								<!-- <li>
-									<div class="li_wrap">
-										<div class="date">
-											2015 - 2018
-										</div>
-										<div class="info">
-											<p class="info_title">
-												Junior FullStack Developer
-											</p>
-											<p class="info_com">
-												Amazon
-											</p>
-											<p class="info_cont">
-												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga voluptatibus consequatur rem nostrum omnis! Architecto.
-											</p>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="li_wrap">
-										<div class="date">
-											2014 - 2015
-										</div>
-										<div class="info">
-											<p class="info_title">
-												Intern FullStack Developer
-											</p>
-											<p class="info_com">
-												Google
-											</p>
-											<p class="info_cont">
-												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga voluptatibus consequatur rem nostrum omnis! Architecto.
-											</p>
-										</div>
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="education">
-				<!bagian ini sesuai kan dengan pendidikan/program pelatihan  teman-teman , misal  sertifikasi Niomic dari Niomic  -->
+
 						<div class="title">
 							Education
 						</div>
