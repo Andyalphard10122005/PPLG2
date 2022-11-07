@@ -162,22 +162,15 @@
             <li>
                 <div class="date"></div> 
                 <div class="info">
-                     <p class="semi-bold">Lorem ipsum dolor sit amet.</p> 
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus!</p>
+                     <p class="semi-bold">Student Council</p> 
+                  <p>2021-22</p>
                 </div>
             </li>
             <li>
               <div class="date"></div>
               <div class="info">
-                     <p class="semi-bold">Lorem ipsum dolor sit amet.</p> 
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus!</p>
-                </div>
-            </li>
-            <li>
-              <div class="date"></div>
-              <div class="info">
-                     <p class="semi-bold">Lorem ipsum dolor sit amet.</p> 
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus!</p>
+                     <p class="semi-bold">Class Meet </p> 
+                  <p>first winner general science competition in middle school</p>
                 </div>
             </li>
         </ul>
