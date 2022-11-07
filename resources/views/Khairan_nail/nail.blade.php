@@ -173,6 +173,7 @@
 									<div class="li_wrap">
 										<div class="date">
 											-Life Experience
+                                            -Made a working inventory storage dashboard with CRUD system using native php
 										</div>
 										<div class="info">
 											<p class="info_title">
