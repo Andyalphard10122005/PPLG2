@@ -1,0 +1,157 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'nunito';
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar ul{
+  display: flex ;
+  gap: 10vw;
+  margin-top: 2vw;
+  margin-left: 65vw;
+}
+
+.navbar ul li{
+  list-style: none;
+}
+
+
+.kanan-hero img{
+  transform-style: preserve-3d;
+  transform: translateZ(20px);
+}
+
+.fa-facebook:before {
+  width: 20vw;
+}
+
+.about-me{
+
+}
+
+
+.my-intro{
+  letter-spacing: 0.3em;
+  color: #b1b493;
+  font-weight: 800;
+}
+
+.text-skills{
+  letter-spacing: 0.3em;
+  color: #b1b493;
+  font-weight: 800;
+}
+.text-resume{
+  letter-spacing: 0.3em;
+  color: #b1b493;
+  font-weight: 800;
+}
+
+.card1{
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+  margin-left: 15vw;
+}
+
+.gambar-card1 img{
+  margin-left: 6vw;
+}
+
+.subjudul-card1{
+  color: #b1b493;
+}
+.card2{
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+  margin-left: 4vw;
+}
+
+.gambar-card2 img{
+  margin-left: 6vw;
+}
+
+.subjudul-card2{
+  color: #b1b493;
+}
+.card3{
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+  margin-left: 4vw;
+}
+
+.gambar-card3 img{
+  margin-left: 6vw;
+}
+
+.subjudul-card3{
+  color: #b1b493;
+}
+.card4{
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+  margin-left: 4vw;
+}
+
+.gambar-card4 img{
+  margin-left: 6vw;
+}
+
+.subjudul-card4{
+  color: #b1b493;
+}
+.card5{
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+  margin-left: 15vw;
+}
+
+.gambar-card5 img{
+  margin-left: 6vw;
+}
+
+.subjudul-card5{
+  color: #b1b493;
+}
+
+.card6{
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+  margin-left: 4vw;
+}
+
+.gambar-card6 img{
+  margin-left: 6vw;
+}
+
+.subjudul-card6{
+  color: #b1b493;
+}
+
+.card7{
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+  margin-left: 4vw;
+}
+
+.gambar-card7 img{
+  margin-left: 6vw;
+}
+
+.subjudul-card7{
+  color: #b1b493;
+}
+
+.card8{
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+  margin-left: 4vw;
+}
+
+.gambar-card8 img{
+  margin-left: 6vw;
+}
+
+.subjudul-card8{
+  color: #b1b493;
+}
+
+
+.gambar-cv{
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+}

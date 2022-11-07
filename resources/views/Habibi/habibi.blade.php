@@ -61,11 +61,8 @@
                     <span>STUDENT</span>
                 </div>
                 <p>
-                    Credibly embrace visionary internal or "organic" sources and business benefits. Collaboratively
-                    integrate efficient portals rather than customized customer service. Assertively deliver
-                    frictionless services via leveraged interfaces. Conveniently evisculate accurate sources and
-                    process-centric expertise.Energistically fabricate customized imperatives through cooperative
-                    catalysts for change.
+                Hello there i'm Habibi Rabbani Akbar, age 17 years old, 
+                currently studying at the Taruna Bakti Vocational High School majoring in software engineering. I'm currenly studying to become a front end developer.
                 </p>
 
 
