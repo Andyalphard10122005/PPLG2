@@ -4,8 +4,8 @@
 
         <div class="col-md-9 col-sm-8 wow fadeInUp" data-wow-delay="0.2s">
           <div class="about-thumb">
-            <h1>Background</h1>
-            <p>Quisque tempor bibendum dolor at volutpat. Suspendisse venenatis quam sed libero euismod feugiat. In cursus nisi vitae lectus facilisis mollis. Nullam scelerisque, quam nec iaculis vulputate.</p>
+            <h1>Introduce us</h1>
+            <p>We enter Taruna Bhakti in 2021 on the 3rd of the 9th month, and we are the 23rd batch</p>
           </div>
         </div>
 
@@ -25,10 +25,11 @@
           <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
             <div class="team-thumb">
               <div class="image-holder">
-                <img src="{{asset('1-asset-landingpage/images/Bu nahlah.jpeg')}}" class="img-responsive img-circle" alt="Mary" style="max-width: 200px;">
+                <a href="https://www.instagram.com/nahlanah_/" target="blank_">  <img src="{{asset('1-asset-landingpage/images/Bu nahlah.jpg')}}" class="img-responsive img-circle" alt="Mary" style="max-width: 200px;"></a>
               </div>
               <h2 class="heading">Nahla naufan<br>Homeroom Teacher</h2>
-              <p class="description">Aliquam ac justo est. Praesent feugiat cursus est.</p>
+               <p class="description">Check my Homeroom teacher instagram.</p>
+
             </div>
           </div>
         </div>

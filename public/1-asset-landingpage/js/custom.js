@@ -2,7 +2,7 @@
  /* jQuery Pre loader
   -----------------------------------------------*/
 $(window).load(function(){
-    $('.preloader').fadeOut(1000); // set duration in brackets    
+    $('.preloader').fadeOut(1000); // set duration in brackets
 });
 
 
@@ -33,9 +33,9 @@ $(document).ready(function() {
   $(function() {
     $('body').vegas({
         slides: [
-            { src: 'images/Foto-kelas.jpeg' },
-            { src: 'images/Foto-siswa.jpeg' },
-            { src: 'images/Foto-siswa3.jpeg' }
+            { src: 'https://lh3.googleusercontent.com/drive-viewer/AJc5JmS90Plw6I83OHy9rgDZ0AAbFs6GGggNcBpgXTudZVUwqZRzFPOAhmOAo1ZmlDABPxQdJotkOZLUdgjxVSztpj0gaUNAkw=w1920-h950' },
+            { src: 'https://lh3.googleusercontent.com/drive-viewer/AJc5JmRcAw24ysAazWDXZkSZqHMdnG8rX3wlP4afxUS9DfboFpGdRO8wqhaF2q40LzKAl-v2Ns9DBnme56R4_aFxX93zV4C7=w1920-h950' },
+            { src: 'https://lh3.googleusercontent.com/drive-viewer/AJc5JmShNC7O2mggg6evJxSc3p2r33-uWdT3PpONJK18ZiTVyLlz1s5HANAuW7--23yrD8vPQakwDWMJONfKMU70C7bvsuch=w1920-h950' }
         ],
         timer: false,
         transition: [ 'zoomIn', ],
@@ -58,7 +58,7 @@ $(document).ready(function() {
           itemsMobile : [479,1],
       });
     });
-    
+
 
     /* Back to Top
     -----------------------------------------------*/
@@ -68,7 +68,7 @@ $(document).ready(function() {
             } else {
                 $('.go-top').fadeOut(200);
            }
-        });   
+        });
           // Animate the scroll to top
         $('.go-top').click(function(event) {
           event.preventDefault();

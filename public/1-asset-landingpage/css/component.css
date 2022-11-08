@@ -18,8 +18,9 @@
 }
 
 .grid figure img {
+    /* background-size: cover; */
 	width: 100%;
-	max-width: 100%;
+	max-width: 90%;
 	display: block;
 	position: relative;
 }
