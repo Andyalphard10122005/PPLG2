@@ -35,7 +35,8 @@ $(document).ready(function() {
         slides: [
             { src: 'https://lh3.googleusercontent.com/drive-viewer/AJc5JmS90Plw6I83OHy9rgDZ0AAbFs6GGggNcBpgXTudZVUwqZRzFPOAhmOAo1ZmlDABPxQdJotkOZLUdgjxVSztpj0gaUNAkw=w1920-h950' },
             { src: 'https://lh3.googleusercontent.com/drive-viewer/AJc5JmRcAw24ysAazWDXZkSZqHMdnG8rX3wlP4afxUS9DfboFpGdRO8wqhaF2q40LzKAl-v2Ns9DBnme56R4_aFxX93zV4C7=w1920-h950' },
-            { src: 'https://lh3.googleusercontent.com/drive-viewer/AJc5JmShNC7O2mggg6evJxSc3p2r33-uWdT3PpONJK18ZiTVyLlz1s5HANAuW7--23yrD8vPQakwDWMJONfKMU70C7bvsuch=w1920-h950' }
+            { src: 'https://lh3.googleusercontent.com/drive-viewer/AJc5JmShNC7O2mggg6evJxSc3p2r33-uWdT3PpONJK18ZiTVyLlz1s5HANAuW7--23yrD8vPQakwDWMJONfKMU70C7bvsuch=w1920-h950' },
+            { src: 'https://lh3.googleusercontent.com/drive-viewer/AJc5JmSdI3RmWnvuCqql5ZBJPCG2mLd04kkQP27oFTGhs3r_Qn8islqtiNmuWLLuCPIkHO3sUw4n5sJ85xipcpqCBnqzpd4SMQ=w1920-h878' }
         ],
         timer: false,
         transition: [ 'zoomIn', ],
