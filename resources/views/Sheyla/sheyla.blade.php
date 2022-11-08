@@ -8,7 +8,7 @@
    ================================================== -->
    <meta charset="utf-8">
 	<title>CV</title>
-	<meta name="description" content="">  
+	<meta name="description" content="">
 	<meta name="author" content="">
 
    <!-- mobile specific metas
@@ -17,12 +17,12 @@
 
  	<!-- CSS
    ================================================== -->
-   <link rel="stylesheet" href="{{ asset('Assets-sheyla/css/base.css') }}">  
+   <link rel="stylesheet" href="{{ asset('Assets-sheyla/css/base.css') }}">
    <link rel="stylesheet" href="{{ asset('Assets-sheyla/css/main.css') }}">
-   <link rel="stylesheet" href="{{ asset('Assets-sheyla/css/vendor.css') }}">     
+   <link rel="stylesheet" href="{{ asset('Assets-sheyla/css/vendor.css') }}">
 
    <!-- script
-   ================================================== -->   
+   ================================================== -->
 	<script src="{{ asset('Assets-sheyla/js/modernizr.js') }}"></script>
 	<script src="{{ asset('Assets-sheyla/js/pace.min.js') }}"></script>
 
@@ -34,9 +34,9 @@
 
 <body id="top">
 
-	<!-- header 
+	<!-- header
    ================================================== -->
-   <header>   	
+   <header>
    	<div class="row">
 
    		<div class="top-bar">
@@ -47,20 +47,20 @@
 						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
 						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
 						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
-						<li><a class="smoothscroll"  href="#cta" title="">Works</a></li>					
-						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>	
+						<li><a class="smoothscroll"  href="#cta" title="">Works</a></li>
+						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>
 					</ul>
-				</nav>    		
-   		</div> <!-- /top-bar --> 
-   		
-   	</div> <!-- /row --> 		
+				</nav>
+   		</div> <!-- /top-bar -->
+
+   	</div> <!-- /row -->
    </header> <!-- /header -->
 
 	<!-- intro section
    ================================================== -->
-   <section id="intro">   
+   <section id="intro">
 
-   	<div class="intro-overlay"></div>	
+   	<div class="intro-overlay"></div>
 
    	<div class="intro-content">
    		<div class="row">
@@ -72,21 +72,21 @@
 
 	   			<p class="intro-position">
 	   				<span>Front-end Developer</span>
-	   				<span>UI/UX Designer</span> 
+	   				<span>UI/UX Designer</span>
 	   			</p>
 
 	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
 
-	   		</div>  
-   			
-   		</div>   		 		
-   	</div> <!-- /intro-content --> 
+	   		</div>
 
-   	<ul class="intro-social">        
+   		</div>
+   	</div> <!-- /intro-content -->
+
+   	<ul class="intro-social">
          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-      </ul> <!-- /intro-social -->      	
+      </ul> <!-- /intro-social -->
 
    </section> <!-- /intro -->
 
@@ -106,9 +106,9 @@
    				<img src="images/webcam-toy-photo14.jpg" alt="Profile Picture">
 
    				<p class="lead"></p>
-   			</div>   			
+   			</div>
 
-   		</div>   		
+   		</div>
    	</div> <!-- /section-intro -->
 
    	<div class="row about-content">
@@ -167,9 +167,9 @@
 				   	<div class="progress percent75"><span>80%</span></div>
 				   	<strong>PHP</strong>
 				   </li>
-				   
-      
-				</ul> <!-- /skill-bars -->		
+
+
+				</ul> <!-- /skill-bars -->
 
    		</div>
 
@@ -179,10 +179,10 @@
    		<div class="col-twelve">
    			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
    			<a href="#" title="Download CV" class="button button-primary">Download CV</a>
-   		</div>   		
+   		</div>
    	</div>
 
-   </section> <!-- /process-->    
+   </section> <!-- /process-->
 
 
    <!-- resume Section
@@ -192,9 +192,9 @@
 		<div class="row section-intro">
    		<div class="col-twelve">
 
-   		</div>   		
-   	</div> <!-- /section-intro--> 
-   	
+   		</div>
+   	</div> <!-- /section-intro-->
+
    	<div class="row resume-timeline">
 
    		<div class="col-twelve resume-header">
@@ -261,12 +261,12 @@
 
 	   			</div> <!-- /timeline-block -->
 
-   			</div> <!-- /timeline-wrap -->   			
+   			</div> <!-- /timeline-wrap -->
 
    		</div> <!-- /col-twelve -->
-   		
+
    	</div> <!-- /resume-timeline -->
-		
+
 	</section> <!-- /features -->
 
 
@@ -277,7 +277,7 @@
 
    	<div class="row cta-content">
 
-   		<div class="col-twelve section-ads">  
+   		<div class="col-twelve section-ads">
 
 	     		<h2 class="h01"><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">My Works</a></h2>
 
@@ -287,13 +287,13 @@
 
 				<div class="action">
 			      <a class="button button-primary large" href="https://github.com/sheylaulya">Check Now</a>
-		      </div>		     	
+		      </div>
 
    		</div>
 
    	</div> <!-- /cta-content -->
 
-   </section> <!-- /cta --> 
+   </section> <!-- /cta -->
 
    <!-- contact
    ================================================== -->
@@ -305,7 +305,7 @@
    			<h5>Contact</h5>
    			<h1>I'd Love To Hear From You.</h1>
 
-   		</div> 
+   		</div>
    	</div> <!-- /section-intro -->
 
    	<div class="row contact-form">
@@ -324,14 +324,14 @@
 	               </div>
                   <div class="form-field">
 	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
-	               </div>                       
+	               </div>
                   <div class="form-field">
 	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
-	               </div>                      
+	               </div>
                  <div class="form-field">
                      <button class="submitform">Submit</button>
                      <div id="submit-loader">
-                        <div class="text-loader">Sending...</div>                             
+                        <div class="text-loader">Sending...</div>
        				      <div class="s-loader">
 								  	<div class="bounce1"></div>
 								  	<div class="bounce2"></div>
@@ -344,15 +344,15 @@
       		</form> <!-- Form End -->
 
             <!-- contact-warning -->
-            <div id="message-warning">            	
-            </div>            
+            <div id="message-warning">
+            </div>
             <!-- contact-success -->
       		<div id="message-success">
                <i class="fa fa-check"></i>Your message was sent, thank you!<br>
       		</div>
 
          </div> <!-- /col-twelve -->
-   		
+
    	</div> <!-- /contact-form -->
 
    	<div class="row contact-info">
@@ -379,7 +379,7 @@
 
    			<h5>Email Me At</h5>
 
-   			<p>sheylaulya@gmail.com			     
+   			<p>sheylaulya@gmail.com
 			   </p>
 
    		</div>
@@ -396,9 +396,9 @@
 			   </p>
 
    		</div>
-   		
+
    	</div> <!-- /contact-info -->
-		
+
 	</section> <!-- /contact -->
 
 
@@ -410,34 +410,34 @@
 
      		<div class="col-six tab-full pull-right social">
 
-     			<ul class="footer-social">        
+     			<ul class="footer-social">
 			      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-			      <li><a href="#"><i class="fa fa-twitter"></i></a></li> 	
+			      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
 			      <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-			   </ul> 
-	      		
+			   </ul>
+
 	      </div>
 
       	<div class="col-six tab-full">
 	      	<div class="copyright">
-		        	<span>© Copyright Sheyla 2022.</span> 
-		        	<span>Design by <a href="">Me</a></span>	         	
-		         </div>		                  
+		        	<span>© Copyright Sheyla 2022.</span>
+		        	<span>Design by <a href="">Me</a></span>
+		         </div>
 	      	</div>
 
 	      	<div id="go-top">
 		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
 		      </div>
 
-      	</div> <!-- /row -->     	
-   </footer>  
+      	</div> <!-- /row -->
+   </footer>
 
-   <div id="preloader"> 
+   <div id="preloader">
     	<div id="loader"></div>
-   </div> 
+   </div>
 
    <!-- Java Script
-   ================================================== --> 
+   ================================================== -->
    <script src="{{ asset('Assets-sheyla/js/jquery-2.1.3.min.js') }}"></script>
    <script src="{{ asset('Assets-sheyla/js/plugins.js') }}"></script>
    <script src="{{ asset('Assets-sheyla/js/main.js') }}"></script>

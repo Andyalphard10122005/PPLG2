@@ -36,7 +36,7 @@ use App\Http\Controllers\Kiagus;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('2-layout.app');
 });
 
 

@@ -64,7 +64,7 @@
                 <span class="hover:font-thin hover:text-violet-500 transition-all ease-in-out">Now</span><br>
                 <span class="hover:font-thin hover:text-violet-500 transition-all ease-in-out">-></span>
             </a>
-        </div>
+        </div> 
     </section>
 
     <section class="relative h-[50vh] flex flex-row items-center w-full mb-12">
