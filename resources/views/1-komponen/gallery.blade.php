@@ -69,8 +69,8 @@
               <div><img src="{{asset('1-asset-landingpage/images/aril.jpeg')}}" alt="image 4" style="max-height: 300px;"></div>
               <figcaption>
                 <h2 class="name">Aril Pradana</h2>
-                <very-small>""</small>
-                {{-- <a href="/members/aril">Details</a> --}}
+                <very-small>"Kegagalan adalah awal dari kesuksesan, jangan pernah menyerah"</small>
+                <a href="/members/aril">Details</a>
               </figcaption>
             </figure>
           </li>

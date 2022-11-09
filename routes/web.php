@@ -80,3 +80,5 @@ Route::get('members/dimas', [App\Http\Controllers\Dimas::class, 'index'])->name(
 Route::get('members/rei', [App\Http\Controllers\Rei::class, 'index'])->name('Rei.rei');
 Route::get('members/kiagus', [App\Http\Controllers\Kiagus::class, 'index'])->name('Kiagus.kiagus');
 Route::get('members/sherly', [App\Http\Controllers\Sherly::class, 'sherly'])->name('Sherly.sherly');
+Route::get('members/aril', [App\Http\Controllers\Aril::class, 'index'])->name('Aril.aril');
+
