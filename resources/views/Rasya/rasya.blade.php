@@ -116,7 +116,7 @@
                         class="english">Junior Back-End Developer</i>.
                 </p>
                 <p>
-                    Lahir di <b class="important">Depok</b>, Jawa
+                    Lahir di <b class="important">Depok</b> pada tanggal 9 Februari 2006, Jawa
                     Barat, Indonesia.
                 </p>
                 <p>
@@ -210,13 +210,13 @@
 
     <!-- CUSTOM JS -->
     <script type="text/javascript">
-    
+
         function PDF(){
             const e = document.querySelector(".container");
 
             // RESIZE
             e.style.maxWidth = "700px";
-            
+
             // OPTIONS
             const opt = {
                 filename: 'resume.pdf',
@@ -241,6 +241,6 @@
         }
 
     </script>
-    
+
 </body>
 </html>

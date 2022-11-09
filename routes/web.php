@@ -66,7 +66,6 @@ Route::get('members/winny', [App\Http\Controllers\Winny::class, 'index'])->name(
 Route::get('members/agung', [App\Http\Controllers\Agung::class, 'index'])->name('Agung.agung');
 Route::get('members/Sulthan', [App\Http\Controllers\Sulthan::class, 'index'])->name('Sulthan.Sulthan');
 Route::get('members/M_kautsar', [App\Http\Controllers\M_kautsar::class, 'index'])->name('M_kautsar.M_kautsar');
-Route::get('members/l', [App\Http\Controllers\Fachry::class, 'lex'])->name('Fachry.index');
 Route::get('members/yudiya', [App\Http\Controllers\M_yudiya::class, 'index']);
 Route::get('members/naillah', [App\Http\Controllers\Naillah::class, 'naillah'])->name('Naillah.naillah');
 Route::get('members/selvi', [App\Http\Controllers\Selvi::class, 'index'])->name('Selvi.selvi');

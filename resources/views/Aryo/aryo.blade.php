@@ -33,7 +33,7 @@
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#team">Team</a></li>
               </ul>
             </div>
           </div>
@@ -55,7 +55,7 @@
       </div>
       <div class="section">
         <div class="container">
-          <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon" target="_blank" href="https://www.facebook.com/aryo.syawalitobimo" rel="tooltip" title="Follow me on Facebook"><i class="fa fa-facebook"></i><a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.instagram.com/aruyo_/" target="_blank" rel="tooltip" title="Follow me on Instagram"><i class="fa fa-instagram"></i></a></div>
+          <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon" target="_blank" href="https://github.com/AryoSyawal" rel="tooltip" title="Check my Github"><i class="fa fa-github"></i><a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.instagram.com/aruyo_/" target="_blank" rel="tooltip" title="Follow me on Instagram"><i class="fa fa-instagram"></i></a></div>
         </div>
       </div>
     </div>
@@ -68,7 +68,7 @@
         <div class="col-lg-6 col-md-12">
           <div class="card-body">
             <div class="h4 mt-0 title">About</div>
-            <p>Hello! I am Aryo Syawalito Bimo. a Web Developer and an IT 
+            <p>Hello! I am Aryo Syawalito Bimo. a Web Developer and an IT
               enthusiast, an amazing person with big curiosity, able to learn many things under many circumstances and also a reliable problem solver</p>
             <p><a href="https://templateflip.com/templates/creative-cv/" target="_blank">Learn More</a></p>
           </div>
@@ -292,7 +292,7 @@
           <div class="card-body">
             <div class="h5">Raden Patah</div>
             <p class="category">Islamic Middle School</p>
-      
+
           </div>
         </div>
       </div>
@@ -309,14 +309,14 @@
           <div class="card-body">
             <div class="h5">Taruna Bhakti</div>
             <p class="category">IT HS</p>
-            
+
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-<div class="section" id="reference">
+<div class="section" id="team">
   <div class="container cc-reference">
     <div class="h4 mb-4 text-center title">Team</div>
     <div class="card" data-aos="zoom-in">
@@ -369,7 +369,7 @@
 </div></div>
     </div>
     <footer class="footer">
-      <div class="container text-center"><a class="cc-facebook btn btn-link" href="https://www.facebook.com/aryo.syawalitobimo" target="_blank"><i class="fa fa-facebook fa-2x " aria-hidden="true"></i><a class="cc-instagram btn btn-link" href="https://www.instagram.com/aruyo_/" target="_blank"><i class="fa fa-instagram fa-2x " aria-hidden="true"></i></a></div>
+      <div class="container text-center"><a class="cc-facebook btn btn-link" href="https://github.com/AryoSyawal" target="_blank"><i class="fa fa-github fa-2x " aria-hidden="true"></i><a class="cc-instagram btn btn-link" href="https://www.instagram.com/aruyo_/" target="_blank"><i class="fa fa-instagram fa-2x " aria-hidden="true"></i></a></div>
       <div class="h4 title text-center">Aryo Syawalito Bimo</div>
     </footer>
     <script src="{{ asset('assetaryo/js/core/jquery.3.2.1.min.js') }}"></script>

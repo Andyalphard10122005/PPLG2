@@ -5,7 +5,7 @@
         <div class="col-md-9 col-sm-8 wow fadeInUp" data-wow-delay="0.2s">
           <div class="about-thumb">
             <h1>Introduce us</h1>
-            <p>We enter Taruna Bhakti in 2021 on the 3rd of the 9th month, and we are the 23rd batch</p>
+            <p>We are from software engineering and game developing 2 of Taruna Bhakti.</p>
           </div>
         </div>
 
