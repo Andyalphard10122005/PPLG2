@@ -180,7 +180,7 @@
               <figcaption>
                 <h2 class="name">Ibrahim Khalis</h2>
                 <very-small>"Choose people who choose you"</small>
-                {{-- <a href="">Details</a> --}}
+                <a href="/members/ibrahim">Details</a>
               </figcaption>
             </figure>
           </li>

@@ -81,4 +81,6 @@ Route::get('members/rei', [App\Http\Controllers\Rei::class, 'index'])->name('Rei
 Route::get('members/kiagus', [App\Http\Controllers\Kiagus::class, 'index'])->name('Kiagus.kiagus');
 Route::get('members/sherly', [App\Http\Controllers\Sherly::class, 'sherly'])->name('Sherly.sherly');
 Route::get('members/aril', [App\Http\Controllers\Aril::class, 'index'])->name('Aril.aril');
+Route::get('members/ibrahim', [App\Http\Controllers\Ibrahim::class, 'ibrahim'])->name('Ibrahim.ibrahim');
+
 
